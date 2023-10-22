@@ -7,14 +7,14 @@ knopka.addEventListener('click', function (){
 
     if (zagolovok.style.color == ""){
         zagolovok.style.color = "red"
-        zagolovok.style.fontSize = "200px"
+        zagolovok.style.fontSize = "500px"
         zvuk.play()
     }else if(zagolovok.style.color == "red"){
         zagolovok.style.color = "white"
         zagolovok.style.fontSize = "60px"
     }else{
         zagolovok.style.color = "red"
-        zagolovok.style.fontSize = "200px"
+        zagolovok.style.fontSize = "500px"
         zvuk.play()
     };
 });
