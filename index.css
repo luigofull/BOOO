@@ -1,0 +1,32 @@
+@font-face {
+
+    font-family: 'kek';
+
+    src: url('fonts/Youmurdererbb-pwoK.otf');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+.audio{
+    display: none;
+}
+.body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    text-align: center;
+}
+.titel{
+    font-family: "kek";
+    font-size: 60px;
+    color: white;
+}
+
